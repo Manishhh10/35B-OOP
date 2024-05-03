@@ -49,9 +49,8 @@ public class InputOutput {
          * // comment the previous scanner for ease os use 
          */
          Scanner scan = new Scanner(System.in);
-         Scanner scans = new Scanner(System.in);
          System.out.println("What is your name?");
-         String wholeWStrings = scans.nextLine();
+         String wholeWStrings = scan.nextLine();
          
 
          System.out.println("Are you over 18?");
@@ -60,11 +59,9 @@ public class InputOutput {
          System.out.println("How many siblings?");
          int intSibling = scan.nextInt();
 
-         System.out.println("Hello" + wholeWStrings);
-         System.out.println("Over 18?" + booleanAge);
-         System.out.println("You have" + "number of sibling." );
-
-
+         System.out.println("Hello " + wholeWStrings);
+         System.out.println("Over 18 ? " + booleanAge);
+         System.out.println("You have " + intSibling + " number of sibling." );
 
     }
 }

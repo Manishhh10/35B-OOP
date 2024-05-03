@@ -1,3 +1,4 @@
+package Week2;
 public class JavaArgument {
     public static void main(String[] args) {
         if(args.length<2){

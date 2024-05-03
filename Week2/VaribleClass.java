@@ -1,3 +1,4 @@
+package Week2;
 import javax.lang.model.element.VariableElement;
 
 public class VaribleClass {

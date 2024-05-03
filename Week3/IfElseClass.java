@@ -1,3 +1,4 @@
+package Week3;
 public class IfElseClass {
     public static void main(String[] args) {
         // /* If statement */
