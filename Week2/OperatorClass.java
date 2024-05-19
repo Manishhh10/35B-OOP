@@ -20,11 +20,11 @@ public class OperatorClass {
         /* Relational Operator */
         int rNum1 = 20, rNum2 = 21;
         boolean rExpression = rNum1 == rNum2; //returns true/false
-        System.out.println("Equals to" + rExpression);
-        System.out.println("Greater than" + (rNum1 > rNum2));
-        System.out.println("Less than" + (rNum1 < rNum2));
-        System.out.println("Not equals to" + (rNum1!=rNum2));
-        System.out.println("Greater than equals to" + (rNum1 >= rNum2));
+        System.out.println("Equals to " + rExpression);
+        System.out.println("Greater than " + (rNum1 > rNum2));
+        System.out.println("Less than " + (rNum1 < rNum2));
+        System.out.println("Not equals to " + (rNum1!=rNum2));
+        System.out.println("Greater than equals to " + (rNum1 >= rNum2));
         /* Logical Operator */
         int lNum1 = 20, lNum2 = 20;
         boolean lExpression1 = lNum1 == lNum2;

@@ -55,9 +55,13 @@ public class VaribleClass {
         /*Implicit type casting (automatic) 
          * From smaller type to larger type
         */
-        int intValueConvert = 10;
-        double doubleValueConvert = 19.23d;
-        int doubleValueConvertedToInt = (int) doublevalue;
-        
+        // int intValueConvert = 10;
+        // double doubleValueConvert = 19.23d;
+        // int doubleValueConvertedToInt = (int) doublevalue;
+        for (int i = 1; i < 20; i++) {
+            if (i%2 == 0) {
+                System.out.println("Even: " + i);
+            }
+        }
     }
 }

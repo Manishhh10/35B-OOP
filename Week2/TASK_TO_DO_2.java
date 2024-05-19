@@ -2,7 +2,7 @@ package Week2;
 
 import java.util.Scanner;
 
-public class TASK_TO_DO {
+public class TASK_TO_DO_2 {
     private static final int PrincipleAmount = 0;
 
     public static void main(String[] args) {
